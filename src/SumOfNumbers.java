@@ -1,6 +1,5 @@
 //8. write a program that prints the sum of x ranging from 1 to 20.
 
-
 public class SumOfNumbers {
     public static void main(String[] args) {
         int sum = 0;
