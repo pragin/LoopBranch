@@ -1,3 +1,4 @@
+// 6. Display Sum of n Natural Number
 import java.util.Scanner;
 
 public class SumOfNaturalNumbers {
