@@ -1,3 +1,5 @@
+// 5. Finding factorial of a number entered by user
+
 import java.util.Scanner;
 
 public class Factorial {
@@ -17,9 +19,9 @@ public class Factorial {
 
     public static int findFactorial(int n){
         int factorial = 1;
-        for(int i=n; i>=1; i--){
+        for(int i=2; i<=n; i++){
             System.out.println(factorial);
-            factorial = factorial  * (n-1);
+            factorial = factorial  * i;
         }
         return factorial;
     }
